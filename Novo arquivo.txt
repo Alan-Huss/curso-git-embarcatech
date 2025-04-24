@@ -1,0 +1,15 @@
+Lista de comandos utilizados para realizar toda a tarefa
+
+mkdir CursoGit
+cd Curso-Git/
+git init  --initial-branch=main
+git config --local user.name 'Alan Lopes'
+git config --local user.email 'alanhuss@ymail.com'
+git add Arquivo_01.txt
+git commit -m "Meu primeiro commit"
+git remote add origin-github https://github.com/Alan-Huss/curso-git-embarcatech.git
+git push -u origin-github main
+
+git add Novo\ arquivo.txt
+git commit -m "Meu segundo commit"
+git push -u origin-github main
